@@ -51,4 +51,4 @@ mongoose.connect(process.env.MONGODB_SRV,{
     console.log.err
 })
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.token);
